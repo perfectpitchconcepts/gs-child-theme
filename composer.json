@@ -1,0 +1,16 @@
+{
+  "name": "perfectpitchconcepts/gs-child-theme",
+  "description": "",
+  "keywords": ["wordpress", "theme"],
+  "homepage": "https://github.com/perfectpitchconcepts/gs-child-theme",
+  "authors": [
+    {
+      "name": "GlideStep",
+      "homepage": "https://glidestep.com"
+    }
+  ],
+  "type": "wordpress-theme",
+  "require": {
+    "php": ">=8.0"
+  }
+}
