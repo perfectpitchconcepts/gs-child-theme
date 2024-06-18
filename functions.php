@@ -65,8 +65,8 @@ function gs_sidebar_layout( $layout )
 add_filter('upload_mimes', function ( $mime_types = array() ) { 
 	// add your own extension here - as many as you like
 // 	$mime_types['vcf'] = 'text/vcard'; 
-	$mimes['svg']  = 'image/svg+xml';
-	// return amended array
+	$mime_types['svg']  = 'image/svg+xml';
+
 	return $mime_types;
 });
 
